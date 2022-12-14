@@ -27,7 +27,6 @@ public class MenuUIHandler : MonoBehaviour
     {
         //Debug.Log(GameManager.Instance.playerNameWithHighscore);
         GameManager.Instance.SaveHighScore();
-        GameManager.Instance.SaveHighScoreName();
         Application.Quit();
     }
 
